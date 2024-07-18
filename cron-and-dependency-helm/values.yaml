@@ -1,0 +1,8 @@
+cronjob:
+  schedule: "*/1 * * * *"
+  name: "dependency-cronjob"
+  image: busybox
+  imageTag: "latest"
+
+mysql:
+  enabled: true
